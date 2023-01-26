@@ -7,7 +7,7 @@ let price = document.querySelectorAll(".prix");
 let sum = document.querySelectorAll(".total");
 let totalPrice = document.querySelectorAll(".totalPrix");
 let like = document.querySelectorAll(".far");
-for(let i = 0; i < add.length; i++){
+for(let i = 0; i < article.length; i++){
 //---------------INCREMENTATION DE LA QUANTITEE---------------
     add[i].addEventListener('click' , function(){
         valeur[i].value ++ ;
